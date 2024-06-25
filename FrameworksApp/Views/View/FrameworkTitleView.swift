@@ -11,21 +11,22 @@ struct FrameworkTitleView: View {
     var framework: Framework
     
     var body: some View {
-        VStack{
+        HStack{
             Image(framework.imageName)
                 .resizable()
-                .frame(width: 90, height: 90)
+                .frame(width: 50, height: 50)
             Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
+                .padding()
         }
-        .padding()
     }
 }
 
 
 #Preview {
     FrameworkTitleView(framework: MockData.sampleFramework)
+        .preferredColorScheme(.dark)
 }
