@@ -10,7 +10,7 @@ import SwiftUI
 final class FrameworkGridViewModel: ObservableObject{
     var selectedFramework: Framework?{
         didSet{
-            isShowingDetailView = false
+            isShowingDetailView = true
         }
     }
     @Published var isShowingDetailView = false
