@@ -10,7 +10,7 @@ import SwiftUI
 struct FrameworkDetailView: View {
     var framework: Framework
     @Binding var isShowingDetailView: Bool
-    @State private var isShowingSafariView = false
+    @State private var isShowingSafariView = true
     
     var body: some View {
         ZStack {
