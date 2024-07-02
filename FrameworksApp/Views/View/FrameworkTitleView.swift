@@ -10,7 +10,7 @@ import SwiftUI
 struct FrameworkTitleView: View {
     var framework: Framework
     
-    var body: some View {
+    var body: some View { 
         HStack{
             Image(framework.imageName)
                 .resizable()
