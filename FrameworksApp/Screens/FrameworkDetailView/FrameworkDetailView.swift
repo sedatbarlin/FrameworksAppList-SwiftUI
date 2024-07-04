@@ -5,7 +5,7 @@
 //  Created by Sedat on 15.06.2024.
 //
 
-import SwiftUI
+import SwiftUI 
 
 struct FrameworkDetailView: View {
     var framework: Framework
